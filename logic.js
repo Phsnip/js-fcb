@@ -10,19 +10,19 @@ let is4096Exsist = false;
 let is8192Exsist = false;
 
 function setGame(){
-	// board = [
-	// 	[0,0,0,0],
-	// 	[0,0,0,0],
-	// 	[0,0,0,0],
-	// 	[0,0,0,0]
-	// 	]; 
+	board = [
+		[0,0,0,0],
+		[0,0,0,0],
+		[0,0,0,0],
+		[0,0,0,0]
+		]; 
 
-		board = [
-        [32, 8, 4, 4],
-        [4, 128, 64, 256],
-        [8, 32, 16, 2],
-        [16, 2, 256, 1024]
-    	];
+		// board = [
+  //       [32, 8, 4, 4],
+  //       [4, 128, 64, 256],
+  //       [8, 32, 16, 2],
+  //       [16, 2, 256, 1024]
+  //   	];
 		// this board will be used as the backend board to dsign and modify the tiels of the fornt end board
 
 		// loop
